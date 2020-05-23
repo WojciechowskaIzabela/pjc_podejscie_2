@@ -3,7 +3,7 @@
 
 using namespace std;
 
-CSymulacja :: CSymulacja (){
+CSymulacja::CSymulacja (){
     cout<<"Zaczynamy!"<<endl;
 }
 
@@ -20,7 +20,7 @@ void CSymulacja::przeprowadz_symulacje(){
 }
 
 }
-void CSymulacja :: stop_symulacji(){
+void CSymulacja::stop_symulacji(){
 
     cout<<endl<<"Czy chcesz zakonczyc symulacje??? 1-Tak, 0-Nie"<<endl;
 
